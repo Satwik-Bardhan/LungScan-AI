@@ -1,1 +1,1 @@
-# LIPS
+# Lungs Infection Prediction System
