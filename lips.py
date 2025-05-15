@@ -6,6 +6,7 @@ import time
 from doctors_data import DOCTORS
 from css import CUSTOM_CSS
 
+
 # CONSTANTS & CONFIG
 CLASS_LABELS = {0: 'Healthy', 1: 'Pneumonia', 2: 'Tuberculosis'}
 MODEL_PATH = 'model.keras'
