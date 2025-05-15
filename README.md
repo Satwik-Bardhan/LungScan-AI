@@ -1,2 +1,2 @@
-# Lungs Infection Prediction System
+# Lung Infection Prediction System
 # LungScan AI
