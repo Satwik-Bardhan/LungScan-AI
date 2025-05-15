@@ -6,6 +6,16 @@ import time
 from doctors_data import DOCTORS
 from css import CUSTOM_CSS
 
+# Load model path from TOML
+model_path = st.secrets["model_config"]["model.keras"]
+
+# Load the model
+model = tf.keras.models.load_model(model_path)
+
+# Use other configurations
+input_shape = tuple(st.secrets["model_config"]["input_shape"])
+classes = st.secrets["model_config"]["classes"]
+
 # CONSTANTS & CONFIG
 CLASS_LABELS = {0: 'Healthy', 1: 'Pneumonia', 2: 'Tuberculosis'}
 MODEL_PATH = 'model.keras'
