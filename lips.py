@@ -6,8 +6,6 @@ import time
 from doctors_data import DOCTORS
 from css import CUSTOM_CSS
 
-model_path = st.secrets["model"]["model.keras"]
-
 # CONSTANTS & CONFIG
 CLASS_LABELS = {0: 'Healthy', 1: 'Pneumonia', 2: 'Tuberculosis'}
 MODEL_PATH = 'model.keras'
